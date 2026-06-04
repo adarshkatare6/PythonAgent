@@ -96,6 +96,7 @@ go vet ./...
 go test ./...
 gofmt -l .
 ```
+If validation fails then retry 2 times more
 
 ### 7. PR Generation
 After successful validation:
