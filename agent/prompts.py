@@ -1,5 +1,5 @@
 """
-All LLM prompt templates in one place.
+contains all the LLM prompt templates in one place.
 Keeping prompts separated from node logic makes prompt engineering
 a first-class concern — easy to iterate without touching business logic.
 """

@@ -13,7 +13,7 @@ from typing_extensions import TypedDict
 
 class AgentState(TypedDict, total=False):
     # ── Input ────────────────────────────────────────────────────────────────
-    issue_url: str          # e.g. https://github.com/spf13/cobra/issues/1234
+    issue_url: str          
     workspace_dir: str      # root dir where repos are cloned
     gemini_model: str       # e.g. "gemini-2.5-flash"
     auto_approve: bool      # skip human confirmation node
